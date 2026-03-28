@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/* Global default font */
+
+
+select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: none !important;
+ color-scheme: dark;
+}
+
+
+
+button{
+  cursor: pointer;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  height: 6px; /* horizontal scrollbar */
+  width: 6px;  /* vertical scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666; 
+}
+
+
+
+
+body {
+  margin: 0;
+  display: block;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f4f7fe;
+  color: #111827;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+}
