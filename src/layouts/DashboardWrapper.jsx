@@ -39,7 +39,7 @@ import StorefrontIcon from "@mui/icons-material/Storefront";
 
 
 // Import Images
-import Logo from "../assets/Logo6.png";
+import Logo from "../assets/logo6.png";
 import { Logout } from "iconsax-react";
 
 const drawerFullWidth = 250;
