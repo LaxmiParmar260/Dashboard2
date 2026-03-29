@@ -87,7 +87,7 @@ export default function RevenueInsights() {
 
   return (
     <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 h-full">
-      <div className="flex items-center justify-between mb-4">
+     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
         <h2 className="text-base font-bold text-gray-800">Revenue Insights</h2>
         <div className="flex items-center gap-1 bg-gray-100 rounded-xl p-1">
           {['Monthly', 'Yearly'].map(p => (
@@ -104,7 +104,7 @@ export default function RevenueInsights() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4 mb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-4">
         <div>
           <span className="text-3xl font-bold text-gray-900">$5,567</span>
           <span className="text-2xl font-bold text-gray-900">.00</span>
@@ -123,8 +123,8 @@ export default function RevenueInsights() {
         </div>
       </div>
 
-      <ResponsiveContainer width="100%" height={200}>
-        <BarChart data={data} barCategoryGap="20%" barGap={4} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+      <ResponsiveContainer width="100%" height={250}>
+        <BarChart data={data} barCategoryGap="20%" barGap={4} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
           <CartesianGrid vertical={false} stroke="#f1f5f9" />
           <XAxis dataKey="month" axisLine={false} tickLine={false} tick={{ fontSize: 11, fill: '#94a3b8' }} />
           <YAxis tickFormatter={v => `${v / 1000}k`} axisLine={false} tickLine={false} tick={{ fontSize: 11, fill: '#94a3b8' }} ticks={[0, 10000, 20000, 30000, 40000]} />

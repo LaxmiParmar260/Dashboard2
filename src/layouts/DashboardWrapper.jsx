@@ -19,19 +19,12 @@ import {
 } from "@mui/material";
 
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
-import InventoryIcon from "@mui/icons-material/Inventory";
-import LocalShippingIcon from "@mui/icons-material/LocalShipping";
-import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
-import PaymentsIcon from "@mui/icons-material/Payments";
 import BarChartIcon from "@mui/icons-material/BarChart";
-import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
 import ChevronLeft from "@mui/icons-material/ChevronLeft";
 import ChevronRight from "@mui/icons-material/ChevronRight";
 import { IconButton } from "@mui/material";
 import { BellIcon, Handbag, Search, SearchIcon } from "lucide-react";
-import QueryStatsIcon from "@mui/icons-material/QueryStats";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import Inventory2Icon from "@mui/icons-material/Inventory2";

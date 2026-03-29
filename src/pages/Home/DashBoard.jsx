@@ -13,7 +13,7 @@ export default function Home() {
           {/* <Header /> */}
           <div className="flex-1 overflow-y-auto p-6 ">
             {/* Welcome Row */}
-            <div className="flex items-start justify-between mb-5">
+           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-5">
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Welcome back, India!</h1>
                 <p className="text-sm text-gray-400 mt-0.5">Monday, 24 December 2026</p>
@@ -32,11 +32,11 @@ export default function Home() {
 
             <StatsCards />
 
-            <div className="grid grid-cols-12 gap-4 mt-4">
-              <div className="col-span-8">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 mt-4">
+              <div className="col-span-1 lg:col-span-8">
                 <RevenueInsights />
               </div>
-              <div className="col-span-4">
+             <div className="col-span-1 lg:col-span-4">
                 <SalesOverview />
               </div>
             </div>
