@@ -52,7 +52,7 @@ export default function RecentSales() {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
       {/* Header */}
-      <div className="px-5 py-4 flex items-center gap-3 border-b border-gray-100">
+     <div className="px-3 sm:px-5 py-3 sm:py-4 flex flex-wrap items-center gap-2 border-b border-gray-100">
         <h2 className="text-base font-bold text-gray-800 flex-1">Recent Sales</h2>
         <div className="flex items-center gap-2 bg-gray-100 rounded-xl px-3 py-2">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2">
@@ -63,7 +63,7 @@ export default function RecentSales() {
             placeholder="Search"
             value={search}
             onChange={e => setSearch(e.target.value)}
-            className="bg-transparent text-sm text-gray-600 outline-none w-32 placeholder-gray-400"
+            className="bg-transparent text-xs sm:text-sm text-gray-600 outline-none w-20 sm:w-32"
           />
         </div>
         <button className="flex items-center gap-2 px-3.5 py-2 bg-gray-100 rounded-xl text-sm text-gray-600 font-medium hover:bg-gray-200 transition">

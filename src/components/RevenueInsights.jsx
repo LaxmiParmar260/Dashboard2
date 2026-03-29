@@ -106,11 +106,11 @@ export default function RevenueInsights() {
 
       <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-4">
         <div>
-          <span className="text-3xl font-bold text-gray-900">$5,567</span>
+          <span className="text-xl sm:text-3xl font-bold text-gray-900">$5,567</span>
           <span className="text-2xl font-bold text-gray-900">.00</span>
           <span className="ml-2 text-xs text-green-500 font-semibold bg-green-50 px-2 py-0.5 rounded-full">↑ 4.9%</span>
         </div>
-        <div className="ml-auto flex items-center gap-4 text-xs text-gray-500">
+       <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 text-xs text-gray-500">
           <span className="flex items-center gap-1.5">
             <span className="w-2.5 h-2.5 rounded-full bg-blue-500 inline-block"></span>Earning
           </span>

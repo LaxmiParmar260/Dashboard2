@@ -25,7 +25,7 @@ function GaugeChart({ value = 70.8 }) {
   const filled = Math.round((value / 100) * segments)
 
   return (
-   <svg className="w-full max-w-[220px]" viewBox="0 0 220 130">
+  <svg className="w-[180px] sm:w-[220px]" viewBox="0 0 220 130">
       {Array.from({ length: segments }).map((_, i) => {
         const start = i * segmentAngle + gap / 2
         const end = (i + 1) * segmentAngle - gap / 2

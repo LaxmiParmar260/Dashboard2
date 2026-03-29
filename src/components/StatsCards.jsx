@@ -61,7 +61,7 @@ export default function StatsCards() {
   return (
    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {stats.map((stat, i) => (
-        <div key={i} className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+        <div key={i} className="bg-white rounded-2xl p-3 sm:p-4 shadow-sm border border-gray-100">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-2.5">
               <div className={`w-9 h-9 ${i === 0 ? 'bg-blue-500' : stat.color} rounded-xl flex items-center justify-center`}>

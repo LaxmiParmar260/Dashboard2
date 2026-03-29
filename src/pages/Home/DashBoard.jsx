@@ -11,14 +11,14 @@ export default function Home() {
         {/* <Sidebar /> */}
         <div className="flex-1 flex flex-col overflow-hidden">
           {/* <Header /> */}
-          <div className="flex-1 overflow-y-auto p-6 ">
+        <div className="flex-1 overflow-y-auto p-3 sm:p-6">
             {/* Welcome Row */}
            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-5">
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Welcome back, India!</h1>
+                <h1 className="text-lg sm:text-2xl font-bold text-gray-900">Welcome back, India!</h1>
                 <p className="text-sm text-gray-400 mt-0.5">Monday, 24 December 2026</p>
               </div>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 <button className="flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 rounded-xl text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 transition">
                   This Month
                   <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
